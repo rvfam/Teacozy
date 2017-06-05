@@ -1,0 +1,125 @@
+body{
+  background-color:black;
+  font-family:helvetica;
+  font-size:22px;
+  color:seashell;
+  opacity:0.9;
+  text-align:center;
+
+  }
+
+.header{
+  display:flex;
+  width:100%;
+  height:69px;
+  position:fixed;
+  border-bottom: 1px solid seashell;
+
+}
+
+.header img{
+  height:50px;
+  padding:10px;
+}
+
+nav{
+  margin:10px;
+  text-align: right;
+  flex-grow:1;
+}
+
+.header a:link{
+  color:seashell;
+  padding-top:10px;
+  text-decoration:underline;
+}
+
+.main {
+  position:absolute;
+  top:80px;
+  left:60px;
+
+  display:flex;
+  align-items: center;
+  justify-content:center;
+/*margin-top:70px;
+  margin-left:60px;*/
+  background-image:url("../images/img-mission-background.jpg");
+  background-position:fixed;
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:700px;
+  z-index:10;
+}
+#mission{
+
+  background-color:black;
+  width:1200px;
+  height:auto;
+}
+.features{
+  width:1200px;
+  position:relative;
+  top:800px;
+  left:60px;
+  overflow-y: auto;
+display:inline-block;
+
+}
+#store{
+  display:block;
+  text-align:center;
+}
+#berry img,#spicedrum img, #donut img,
+#myrtleave img, #bedford img{
+
+  width:300px;
+  height:200px;
+}
+#berry ,#spicedrum , #donut ,
+#myrtleave , #bedford {
+display:inline-block;
+align-items:space-between;
+justify-content:space-between;
+
+
+}
+ .branches{
+   position:relative;
+  left:60px;
+  top:800px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  background-image:url("../images/img-locations-background.jpg");
+  background-position:fixed;
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:1200px;
+  height:500px;
+}
+.square1 , .square2 , .square3{
+  background-color: black;
+  width:300px;
+  height:300px;
+  display:inline-block;
+  opacity:1;
+}
+ #location1, #location2, #location3{
+
+
+}
+.contact{
+  position:relative;
+  top:800px;
+  height:200px;
+  width:100%;
+  text-align:center;
+}
+.footer{
+padding-left:20px;
+  text-align:left;
+  position:relative;
+  left:20px;
+  top:800px;
+}
